@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=肘子播放器
+Comment=基于 mpv 的简易音乐播放器
+Exec=__INSTALL_DIR__/play.sh
+Icon=zhouzi-player
+Path=__INSTALL_DIR__
+StartupWMClass=zhouzi.player
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;Music;Player;
+StartupNotify=true

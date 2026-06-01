@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=小破播放器
+Comment=基于 mpv 的简易音乐播放器
+Exec=/home/bao/桌面/reasonix/player.py
+Icon=xiaopo-player
+Terminal=false
+Type=Application
+Categories=Audio;Music;Player;
+StartupNotify=true
