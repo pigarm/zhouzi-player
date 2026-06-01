@@ -64,11 +64,11 @@ Depends: python3 (>= 3.9),
          gir1.2-notify-0.7,
          mpv,
          ffmpeg
-Maintainer: 猪手 <bao@example.com>
+Maintainer: 猪手 <pigarm@users.noreply.github.com>
 Description: 基于 mpv 的简易音乐播放器
  肘子播放器 — 一个简洁的本地音乐播放器，
  基于 mpv + GTK4 + Adwaita 构建，支持 MPRIS 媒体控件。
-Homepage: https://github.com/bao/zhouzi-player
+Homepage: https://github.com/pigarm/zhouzi-player
 EOF
 
 # ── DEBIAN/postinst ──
@@ -104,7 +104,7 @@ chmod 755 "$BUILD_DIR/DEBIAN/prerm"
 cat > "$BUILD_DIR/usr/share/doc/${APP_NAME}/copyright" << EOF
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: zhouzi-player
-Source: https://github.com/bao/zhouzi-player
+Source: https://github.com/pigarm/zhouzi-player
 
 Files: *
 License: GPL-3.0+
